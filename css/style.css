@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+}
+form{
+    width: 100%;
+    padding: 2rem 4rem;
+    background-color: #265e21;
+    border-radius: 11px;
+}
+.form-group{
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+label{
+    display: block;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.radios label {
+    display: initial;
+}
+.form-control{
+    width: 100%;
+    height: 4rem;
+    padding-left: 1rem;
+    border-radius: 6px;
+    border-width: 1px;
+}
+textarea{
+    height: 12rem;
+    padding-top: 1rem;
+}
+
+.wrapper{
+    margin: auto;
+    padding-top: 8rem;
+    padding: 3rem 6rem;
+}
+.header{
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 100%;
+}
+#title{
+    font-size: 3rem;
+}
+#description{
+    font-size: 2rem;
+}
+
+.submit_{
+    text-align: center;
+    margin-top: 5rem;
+}
+.submit_  button {
+    padding: 1rem 9rem;
+    border-radius: 8px;
+}

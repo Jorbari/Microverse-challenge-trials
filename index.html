@@ -10,29 +10,74 @@
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <div class="wrapper">
-      <h1 id="title">Title goes here</h1>
-      <p id="description">Description</p>
+      <div class="header">
+        <h1 id="title">Title goes here</h1>
+        <p id="description">Description</p>
+      </div>
+      
 
       <form action="" id="surver-form">
-        <label for="name">Name:</label>
-        <input id="name" placeholder="Name">
-        <label for="email">Email:</label>
-        <input id="email" type="email" required placeholder="Name">
-        <label for="number">Number:</label>
-        <input type="number" id="number" min="1" max="10" placeholder="Name">
-        <select id="dropdown">
-          <option>Adderss 1</option>
-          <option>Adderss 2</option>
-          <option>Adderss 3</option>
-      </select>
-      <input type="radio" name="gender">
-      <input type="radio" name="gender">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input id="name" placeholder="Name" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input id="email" type="email" required placeholder="Name" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="number">Number:</label>
+          <input type="number" id="number" min="1" max="10" placeholder="Name" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="dropdown">Select Dropdown</label>
+          <select id="dropdown" class="form-control">
+            <option selected>Adderss 1</option>
+            <option>Adderss 2</option>
+            <option>Adderss 3</option>
+        </select>
+        </div>
 
-      <input type="checkbox">
-      <input type="checkbox">
+        <div class="form-group">
+          <label>Select Gender</label>
+          <section class="radios">
+            <input type="radio" name="gender">
+            <label for="radio">1</label>
+          </section>
+          <section class="radios">
+            <input type="radio" name="gender">
+            <label for="radio">2</label>
+          </section>
+        </div>
 
-      <textarea></textarea>
-      <button id="submit"></button>
+        <div class="form-group">
+          <label>Select</label>
+          <section class="radios">
+            <input type="checkbox">
+            <label for="radio">a</label>
+          </section>
+          <section class="radios">
+            <input type="checkbox">
+            <label for="radio">b</label>
+          </section>
+        </div>
+
+        <div class="form-group">
+          <textarea cols="20" rows="30" class="form-control"></textarea>
+        </div>
+        <div class="form-group submit_">
+          <button id="submit">Submit Form</button>
+        </div>
+        
+        
+        
+       
+      
+
+      
+
+      
+      
       </form>
     </div>
     
