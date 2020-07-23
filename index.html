@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
@@ -14,20 +14,32 @@
         <h1 id="title">Title goes here</h1>
         <p id="description">Description</p>
       </div>
-      
 
-      <form action="" id="surver-form">
+      <form action="" id="survey-form">
         <div class="form-group">
-          <label for="name">Name:</label>
-          <input id="name" placeholder="Name" class="form-control">
+          <label id="name-label" for="name">Name:</label>
+          <input id="name" placeholder="Name" class="form-control" required />
         </div>
         <div class="form-group">
-          <label for="email">Email:</label>
-          <input id="email" type="email" required placeholder="Name" class="form-control">
+          <label id="email-label" for="email">Email:</label>
+          <input
+            id="email"
+            type="email"
+            required
+            placeholder="Name"
+            class="form-control"
+          />
         </div>
         <div class="form-group">
-          <label for="number">Number:</label>
-          <input type="number" id="number" min="1" max="10" placeholder="Name" class="form-control">
+          <label id="number-label" for="number">Number:</label>
+          <input
+            type="number"
+            id="number"
+            min="1"
+            max="10"
+            placeholder="Name"
+            class="form-control"
+          />
         </div>
         <div class="form-group">
           <label for="dropdown">Select Dropdown</label>
@@ -35,30 +47,40 @@
             <option selected>Adderss 1</option>
             <option>Adderss 2</option>
             <option>Adderss 3</option>
-        </select>
+          </select>
         </div>
 
         <div class="form-group">
           <label>Select Gender</label>
           <section class="radios">
-            <input type="radio" name="gender">
-            <label for="radio">1</label>
+            <input type="radio" name="gender" value="Male" />
+            <label for="radio">Male</label>
           </section>
           <section class="radios">
-            <input type="radio" name="gender">
-            <label for="radio">2</label>
+            <input type="radio" name="gender" value="Female" />
+            <label for="radio">Female</label>
           </section>
         </div>
 
         <div class="form-group">
           <label>Select</label>
           <section class="radios">
-            <input type="checkbox">
-            <label for="radio">a</label>
+            <input type="checkbox" value="HTML and CSS" />
+            <label for="checkbox">HTML and CSS</label>
           </section>
           <section class="radios">
-            <input type="checkbox">
-            <label for="radio">b</label>
+            <input type="checkbox" value="Javascript" />
+            <label for="checkbox">Javascript</label>
+          </section>
+
+          <section class="radios">
+            <input type="checkbox" value="Python" />
+            <label for="checkbox">Python</label>
+          </section>
+
+          <section class="radios">
+            <input type="checkbox" value="Ruby" />
+            <label for="checkbox">Ruby</label>
           </section>
         </div>
 
@@ -68,19 +90,9 @@
         <div class="form-group submit_">
           <button id="submit">Submit Form</button>
         </div>
-        
-        
-        
-       
-      
-
-      
-
-      
-      
       </form>
     </div>
-    
-    <script  src="js/index.js"></script>
+
+    <script src="js/index.js"></script>
   </body>
 </html>
